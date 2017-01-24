@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MDWorkshop-3
+  host: MDWorkshop-3
+  disk_quota: 1024M
+  services:
+  - MDWorkshop-3-cloudantNoSQLDB
